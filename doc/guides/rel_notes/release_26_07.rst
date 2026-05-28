@@ -182,6 +182,11 @@ Removed Items
    Also, make sure to start the actual text at the margin.
    =======================================================
 
+* **Removed support for OpenSSL 1.x versions from the OpenSSL crypto PMD.**
+
+  The OpenSSL crypto PMD now requires OpenSSL 3.0 as the minimum version,
+  and all compatibility code for OpenSSL 1.0.1, 1.1.0, and 1.1.1 versions has been removed.
+
 
 API Changes
 -----------
