@@ -187,6 +187,11 @@ Removed Items
   The OpenSSL crypto PMD now requires OpenSSL 3.0 as the minimum version,
   and all compatibility code for OpenSSL 1.0.1, 1.1.0, and 1.1.1 versions has been removed.
 
+* **Removed Chacha20-poly1305 and KASUMI crypto drivers.**
+
+  The Chacha20-poly1305 and KASUMI drivers were just wrappers around the main AESNI_MB driver.
+  These wrappers are now removed.
+
 
 API Changes
 -----------
